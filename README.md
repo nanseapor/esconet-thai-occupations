@@ -10,6 +10,9 @@ All data ships as Parquet (Snappy-compressed). Load directly with DuckDB, pandas
 ESCONET/   9 Parquet tables + 2 build scripts + detailed README   (~18 MB)
 THAI/      3 Parquet tables (TSCO, TSIC, ISCO-08 Thai) + 3 READMEs (~2.3 MB)
 ```
+## For LLM agents (Claude Code, Cursor, etc.)
+
+If you are an LLM assistant working with this dataset, start with [`ESCONET_INSTRUCTIONS.md`](ESCONET_INSTRUCTIONS.md) — it contains bootstrap commands, common query patterns, schema cheatsheet, and known gotchas/version quirks. The instructions are imperative ("do X, avoid Y") rather than descriptive, optimized for fast onboarding.
 
 ---
 
